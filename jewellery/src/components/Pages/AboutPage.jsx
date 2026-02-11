@@ -29,7 +29,7 @@ const AboutPage = () => {
             {...fadeIn}
             className="text-[#d4af37] uppercase tracking-[0.5em] text-xs mb-4 font-bold font-sans"
           >
-            The Calvi Legacy
+            The Nebula Legacy
           </motion.h4>
           <motion.h1
             {...fadeIn}
@@ -54,16 +54,16 @@ const AboutPage = () => {
             <div className="space-y-6 text-gray-700 leading-relaxed text-lg">
               <p>
                 Founded in 1920 amidst the narrow, historic cobblestone streets
-                of Zagreb, Croatia, the journey of CALVI has evolved into a
+                of Zagreb, Croatia, the journey of Nebula has evolved into a
                 distinguished global heritage. When our founder crafted his very
                 first piece, his ambition was not merely to create an ornament,
                 but to immortalize memories that transcend generations.
               </p>
               <p>
                 We believe that every diamond and every ounce of gold carries
-                its own unique narrative. At CALVI, we do not simply manufacture
-                jewellery; we curate Fine Art. Our design philosophy has
-                always been a golden harmony between Antique Aesthetics and
+                its own unique narrative. At Nebula, we do not simply
+                manufacture jewellery; we curate Fine Art. Our design philosophy
+                has always been a golden harmony between Antique Aesthetics and
                 Modern Precision.
               </p>
             </div>
@@ -172,7 +172,7 @@ const AboutPage = () => {
             className="text-2xl md:text-3xl italic text-gray-800 leading-relaxed font-light mb-10"
           >
             "Jewellery is far more than an accessory; it is a legacy passed from
-            a mother to her daughter. At CALVI, we are honoured to help you
+            a mother to her daughter. At Nebula, we are honoured to help you
             build that eternal legacy."
           </motion.p>
           <motion.h5
@@ -182,7 +182,7 @@ const AboutPage = () => {
             Robert Cleve
           </motion.h5>
           <p className="text-[#b08d57] text-xs uppercase tracking-[0.3em] mt-2 font-bold">
-            Managing Director, CALVI
+            Managing Director, Nebula
           </p>
         </div>
       </section>

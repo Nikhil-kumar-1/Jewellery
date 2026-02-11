@@ -25,7 +25,7 @@ const Terms = () => {
       title: "Authenticity",
       icon: <HiOutlineShieldCheck size={30} />,
       content:
-        "CALVI ka har ek piece 100% authentic gold aur certified diamonds ke saath aata hai. Kisi bhi mismatch par hum zimmedari lete hain.",
+        "Nebula ka har ek piece 100% authentic gold aur certified diamonds ke saath aata hai. Kisi bhi mismatch par hum zimmedari lete hain.",
     },
     {
       title: "Legal Terms",
@@ -84,7 +84,7 @@ const Terms = () => {
               1. Agreement to Terms
             </h2>
             <p className="text-sm">
-              By accessing the **CALVI Antique Fine Jewellery** website, aap
+              By accessing the **Nebula Antique Fine Jewellery** website, aap
               hamari sharton ko swikar karte hain. Yeh website Praška 10, Zagreb
               se operate ki jati hai. Agar aap in sharton se sehmat nahi hain,
               toh kripya website ka upyog na karein.
@@ -108,10 +108,10 @@ const Terms = () => {
               3. Payment & Security
             </h2>
             <p className="text-sm">
-              CALVI ek secure portal hai. Orders tabhi confirm honge jab payment
-              verify ho jayegi. Kisi bhi technical failure ke karan payment fail
-              hone par hum bank ke saath milkar 7 business days mein refund
-              process karte hain.
+              Nebula ek secure portal hai. Orders tabhi confirm honge jab
+              payment verify ho jayegi. Kisi bhi technical failure ke karan
+              payment fail hone par hum bank ke saath milkar 7 business days
+              mein refund process karte hain.
             </p>
           </section>
 
@@ -120,7 +120,7 @@ const Terms = () => {
               4. Intellectual Property
             </h2>
             <p className="text-sm">
-              Is website par maujood har design, image, aur text **CALVI** ki
+              Is website par maujood har design, image, aur text **Nebula** ki
               property hai. Bina written permission ke hamari designs ka upyog
               karna ya copy karna sakht mana hai.
             </p>
@@ -146,7 +146,7 @@ const Terms = () => {
             <div className="flex justify-center gap-6 text-[10px] uppercase tracking-[0.2em] font-bold text-gray-500">
               <span>Nikhil Kumar</span>
               <span className="text-[#700000]">|</span>
-              <span>CALVI Jewels Team</span>
+              <span>Nebula Jewels Team</span>
             </div>
           </div>
         </motion.div>

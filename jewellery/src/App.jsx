@@ -10,11 +10,14 @@ import ProductPage from "./components/Pages/ProductPage";
 import Cart from "./components/Pages/Cart";
 import PrivacyPolicy from "./components/Pages/PrivacyPolicy";
 import Terms from "./components/Pages/Terms";
+import ScrollOnTop from "./ScrollOnTop";
+
 
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
+      <ScrollOnTop />
 
       <Routes>
         <Route path="/" element={<Home />} />

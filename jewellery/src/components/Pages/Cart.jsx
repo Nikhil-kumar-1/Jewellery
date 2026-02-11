@@ -12,7 +12,7 @@ const Cart = () => {
   const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {
-    const items = JSON.parse(localStorage.getItem("calvi_cart")) || [];
+    const items = JSON.parse(localStorage.getItem("Nebula_cart")) || [];
     setCartItems(items);
   }, []);
 
@@ -34,8 +34,7 @@ const Cart = () => {
 
   const saveCart = (newCart) => {
     setCartItems(newCart);
-    localStorage.setItem("calvi_cart", JSON.stringify(newCart));
-    // Trigger Navbar update
+    localStorage.setItem("Nebula_cart", JSON.stringify(newCart));
     window.dispatchEvent(new Event("cartUpdated"));
   };
 
@@ -43,6 +42,11 @@ const Cart = () => {
     (acc, item) => acc + item.price * (item.quantity || 1),
     0,
   );
+
+  const formatUSD = (amount) =>
+    `$${amount.toLocaleString("en-US", {
+      minimumFractionDigits: 0,
+    })}`;
 
   return (
     <div className="min-h-screen bg-[#fdfbf7] pt-32 pb-20 font-serif">
@@ -73,7 +77,7 @@ const Cart = () => {
           </div>
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            {/* List of Items */}
+            {/* Items */}
             <div className="lg:col-span-2 space-y-6">
               <AnimatePresence>
                 {cartItems.map((item) => (
@@ -88,16 +92,17 @@ const Cart = () => {
                       alt={item.name}
                       className="w-24 h-24 object-cover border border-[#b08d57]/30"
                     />
+
                     <div className="flex-1 text-center sm:text-left">
                       <h3 className="text-[#5a0000] text-lg font-bold uppercase tracking-wide">
                         {item.name}
                       </h3>
                       <p className="text-[#b08d57] font-sans font-bold">
-                        ₹{item.price.toLocaleString()}
+                        {formatUSD(item.price)}
                       </p>
                     </div>
 
-                    {/* Quantity Controls */}
+                    {/* Quantity */}
                     <div className="flex items-center border border-[#700000]/20">
                       <button
                         onClick={() => updateQuantity(item.id, -1)}
@@ -127,30 +132,35 @@ const Cart = () => {
               </AnimatePresence>
             </div>
 
-            {/* Order Summary */}
+            {/* Summary */}
             <div className="bg-[#700000] text-[#d4af37] p-8 h-fit shadow-2xl sticky top-32">
               <h2 className="text-2xl border-b border-[#b08d57]/50 pb-4 mb-6 uppercase tracking-widest">
                 Summary
               </h2>
+
               <div className="space-y-4 mb-8">
                 <div className="flex justify-between font-sans">
                   <span>Subtotal</span>
-                  <span>₹{totalPrice.toLocaleString()}</span>
+                  <span>{formatUSD(totalPrice)}</span>
                 </div>
+
                 <div className="flex justify-between font-sans">
                   <span>Shipping</span>
                   <span className="uppercase text-[10px] tracking-tighter">
                     Complimentary
                   </span>
                 </div>
+
                 <div className="border-t border-[#b08d57]/50 pt-4 flex justify-between text-xl font-bold">
                   <span>Total</span>
-                  <span>₹{totalPrice.toLocaleString()}</span>
+                  <span>{formatUSD(totalPrice)}</span>
                 </div>
               </div>
+
               <button className="w-full bg-[#b08d57] text-[#700000] py-4 font-bold uppercase tracking-[0.2em] hover:bg-white transition-colors shadow-lg">
                 Proceed to Checkout
               </button>
+
               <p className="text-[10px] text-center mt-4 opacity-70 italic tracking-wider">
                 Secure Royal Transaction
               </p>

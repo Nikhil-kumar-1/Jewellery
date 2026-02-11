@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
       title: "Secure Transactions",
       icon: <HiOutlineLockClosed size={30} />,
       content:
-        "Aapki payment details 256-bit encryption ke saath secure ki jati hain. CALVI kabhi bhi aapke credit card ya bank details apne servers par store nahi karta.",
+        "Aapki payment details 256-bit encryption ke saath secure ki jati hain. Nebula kabhi bhi aapke credit card ya bank details apne servers par store nahi karta.",
     },
     {
       title: "Trust & Transparency",
@@ -84,7 +84,7 @@ const PrivacyPolicy = () => {
               1. Introduction
             </h2>
             <p>
-              Welcome to <strong>CALVI Antique Fine Jewellery</strong>. Hum
+              Welcome to <strong>Nebula Antique Fine Jewellery</strong>. Hum
               aapki privacy ka poora sammaan karte hain. Yeh policy aapko batati
               hai ki hum aapki information kaise handle karte hain jab aap
               hamari website visit karte hain ya hamare bespoke services ka use
@@ -131,7 +131,7 @@ const PrivacyPolicy = () => {
               Aapke paas poora adhikaar hai ki aap humse puch sakein ki humne
               aapka kya data store kiya hai. Aap kisi bhi waqt apna account
               delete karne ya data modify karne ki request{" "}
-              <strong>boutique@calvi-jewels.com</strong> par bhej sakte hain.
+              <strong>boutique@Nebula-jewels.com</strong> par bhej sakte hain.
             </p>
           </section>
 

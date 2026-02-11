@@ -37,6 +37,7 @@ const products = [
   },
 ];
 
+
 const scrollingVariants = {
   animate: {
     x: [0, -1035],
@@ -54,7 +55,7 @@ const ProductSection = () => {
   // Function to handle Add to Cart
   const handleAddToCart = (product) => {
     // 1. Get existing cart from localStorage
-    const existingCart = JSON.parse(localStorage.getItem("calvi_cart")) || [];
+    const existingCart = JSON.parse(localStorage.getItem("Nebula_cart")) || [];
 
     // 2. Check if item exists
     const itemIndex = existingCart.findIndex((item) => item.id === product.id);
@@ -66,7 +67,7 @@ const ProductSection = () => {
     }
 
     // 3. Save updated cart
-    localStorage.setItem("calvi_cart", JSON.stringify(existingCart));
+    localStorage.setItem("Nebula_cart", JSON.stringify(existingCart));
 
     // 4. Trigger Navbar update event
     window.dispatchEvent(new Event("cartUpdated"));
@@ -115,10 +116,10 @@ const ProductSection = () => {
           animate="animate"
         >
           <h2 className="text-[#d4af37] text-xl md:text-4xl font-bold uppercase tracking-[0.3em]">
-            Timeless Elegance • Rare Diamonds • Pure Gold • CALVI Signature •
+            Timeless Elegance • Rare Diamonds • Pure Gold • Nebula Signature •
           </h2>
           <h2 className="text-[#d4af37] text-xl md:text-4xl font-bold uppercase tracking-[0.3em]">
-            Timeless Elegance • Rare Diamonds • Pure Gold • CALVI Signature •
+            Timeless Elegance • Rare Diamonds • Pure Gold • Nebula Signature •
           </h2>
         </motion.div>
       </div>
@@ -171,7 +172,7 @@ const ProductSection = () => {
                   {product.name}
                 </h3>
                 <p className="text-[#b08d57] font-bold font-sans italic">
-                  ₹{product.price.toLocaleString()}
+                  ${product.price.toLocaleString("en-US")}
                 </p>
                 <button
                   onClick={() => handleAddToCart(product)}

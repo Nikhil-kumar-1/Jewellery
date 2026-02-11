@@ -89,7 +89,7 @@ const ContactSection = () => {
                     Email Inquiries
                   </h4>
                   <p className="text-gray-700 font-sans tracking-wider">
-                    boutique@calvi-jewels.com
+                    boutique@Nebula-jewels.com
                   </p>
                 </div>
               </div>

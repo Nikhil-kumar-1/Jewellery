@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="space-y-6">
             <Link to="/" className="inline-block">
               <h2 className="text-3xl font-bold tracking-[0.25em] text-[#f3d9a4]">
-                CALVI
+                Nebula
               </h2>
             </Link>
 
@@ -127,7 +127,7 @@ const Footer = () => {
         {/* ================= BOTTOM SECTION ================= */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-[11px] uppercase tracking-[0.2em] font-sans text-[#c6a75e]/60">
           <p className="text-center md:text-left">
-            © {currentYear} CALVI Antique Fine Jewellery. All Rights Reserved.
+            © {currentYear} Nebula Antique Fine Jewellery. All Rights Reserved.
           </p>
 
           <div className="flex flex-wrap justify-center items-center gap-4">

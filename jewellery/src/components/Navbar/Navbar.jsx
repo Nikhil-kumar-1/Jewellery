@@ -13,7 +13,7 @@ const Navbar = () => {
   const [cartCount, setCartCount] = useState(0);
 
   const updateCartCount = () => {
-    const cart = JSON.parse(localStorage.getItem("calvi_cart")) || [];
+    const cart = JSON.parse(localStorage.getItem("Nebula_cart")) || [];
     const count = cart.reduce((total, item) => total + (item.quantity || 1), 0);
     setCartCount(count);
   };
@@ -56,7 +56,7 @@ const Navbar = () => {
           <Link to="/" className="relative z-20">
             <div className="bg-[#700000] border-2 border-[#b08d57] rounded-full p-4 w-28 h-28 md:w-32 md:h-32 flex flex-col items-center justify-center text-center shadow-2xl transform translate-y-2 md:translate-y-4 transition-transform hover:scale-105">
               <span className="text-[#d4af37] text-xs font-serif tracking-widest uppercase font-bold">
-                Calvi
+                Nebula
               </span>
               <div className="w-10 h-[1px] bg-[#b08d57] my-1"></div>
               <span className="text-[7px] md:text-[8px] text-[#d4af37] uppercase leading-tight italic">

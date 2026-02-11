@@ -48,7 +48,7 @@ const AboutSection = () => {
             </div>
 
             <p className="text-gray-700 font-serif leading-relaxed text-lg">
-              At CALVI, we don’t just create jewellery; we give shape to your
+              At Nebula, we don’t just create jewellery; we give shape to your
               deepest emotions. A seamless blend of century-old craftsmanship
               and modern sophistication, every piece is curated to be a timeless
               masterpiece. Our collection is designed to celebrate your unique
