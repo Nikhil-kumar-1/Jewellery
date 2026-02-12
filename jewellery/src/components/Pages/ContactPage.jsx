@@ -13,17 +13,17 @@ const Contact = () => {
     {
       icon: <HiOutlineLocationMarker size={28} />,
       title: "Our Studio",
-      content: "Praška 10, 10000 Zagreb, Croatia",
+      content: "1540 Broadway New York, NY 10036, United States",
     },
     {
       icon: <HiOutlinePhone size={28} />,
       title: "Call Us",
-      content: "+385 1 481 0700",
+      content: "(844) 449-9672",
     },
     {
       icon: <HiOutlineMail size={28} />,
       title: "Email Us",
-      content: "boutique@Nebula-jewels.com",
+      content: "Info@nebulajewellery.shop",
     },
     {
       icon: <HiOutlineClock size={28} />,
@@ -97,7 +97,7 @@ const Contact = () => {
       <section className="h-[500px] w-full relative group">
         <iframe
           title="Nebula Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.789146194218!2d15.974955376569112!3d45.815310871082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6fe4b568323%3A0x6b8015c8e31b0b5e!2zUHJhxaFrYSAxMCwgMTAwMDAsIFphZ3JlYiwgQ3JvYXRpYQ!5e0!3m2!1sen!2sin!4v1707654321000!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1908638639347!2d-73.98746622553847!3d40.75782663481135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855a14d8fe5%3A0x9bf0229a4164534!2s1540%20Broadway%2C%20New%20York%2C%20NY%2010036!5e0!3m2!1sen!2sus!4v1770895650475!5m2!1sen!2sus"
           width="100%"
           height="100%"
           style={{

@@ -58,8 +58,7 @@ const ContactSection = () => {
                     Our Address
                   </h4>
                   <p className="text-gray-700 leading-snug">
-                    Praška 10, 10000 <br />
-                    Zagreb, Croatia
+                    1540 Broadway <br />New York, NY 10036, United States
                   </p>
                 </div>
               </div>
@@ -74,7 +73,7 @@ const ContactSection = () => {
                     Private Line
                   </h4>
                   <p className="text-gray-700 font-sans tracking-wider">
-                    +385 1 481 0700
+                    (844) 449-9672
                   </p>
                 </div>
               </div>
@@ -89,7 +88,7 @@ const ContactSection = () => {
                     Email Inquiries
                   </h4>
                   <p className="text-gray-700 font-sans tracking-wider">
-                    boutique@Nebula-jewels.com
+                    Info@nebulajewellery.shop
                   </p>
                 </div>
               </div>

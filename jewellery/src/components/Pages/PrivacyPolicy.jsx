@@ -131,7 +131,7 @@ const PrivacyPolicy = () => {
               Aapke paas poora adhikaar hai ki aap humse puch sakein ki humne
               aapka kya data store kiya hai. Aap kisi bhi waqt apna account
               delete karne ya data modify karne ki request{" "}
-              <strong>boutique@Nebula-jewels.com</strong> par bhej sakte hain.
+              <strong>Info@nebulajewellery.shop</strong> par bhej sakte hain.
             </p>
           </section>
 

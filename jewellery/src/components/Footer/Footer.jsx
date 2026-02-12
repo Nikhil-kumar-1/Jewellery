@@ -135,7 +135,7 @@ const Footer = () => {
               to="/contact"
               className="text-white hover:text-[#f3d9a4] transition-colors"
             >
-              Praška 10, Zagreb
+              Contact
             </Link>
 
             <div className="hidden sm:block h-3 w-[1px] bg-[#c6a75e]/30" />
@@ -144,7 +144,7 @@ const Footer = () => {
               href="tel:+38514810700"
               className="text-white hover:text-[#f3d9a4] transition-colors"
             >
-              +385 1 481 0700
+              (844) 449-9672
             </a>
           </div>
 
