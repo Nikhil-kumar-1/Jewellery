@@ -14,25 +14,25 @@ const products = [
   {
     id: 1,
     name: "Gold Choker",
-    price: 85000,
+    price: 5899,
     img: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1887",
   },
   {
     id: 2,
     name: "Diamond Ring",
-    price: 45000,
+    price: 7250,
     img: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1770",
   },
   {
     id: 3,
     name: "Emerald Earcuffs",
-    price: 32000,
+    price: 3890,
     img: "https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=1964",
   },
   {
     id: 4,
     name: "Antique Necklace",
-    price: 120000,
+    price: 11200,
     img: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=2070",
   },
 ];
